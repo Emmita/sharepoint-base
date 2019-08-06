@@ -1,0 +1,29 @@
+{
+  "PrimaryQueryResult": {
+    "RelevantResults": {
+      "Table": {
+        "Rows": [
+          {
+            "Cells": [
+              {
+                "Key": "Title",
+                "Value": "Notice 2",
+                "ValueType": "Edm.String"
+              },
+              {
+                "Key": "PictureThumbnailURL",
+                "Value": "https://powerappsneoris.sharepoint.com/_layouts/15/images/sitepagethumbnail.png",
+                "ValueType": "Edm.String"
+              },
+              {
+                "Key": "OriginalPath",
+                "Value": "https://powerappsneoris.sharepoint.com/sites/NorthStar/SitePages/Notice-2.aspx",
+                "ValueType": "Edm.String"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

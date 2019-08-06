@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "second-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/secondWebPart/SecondWebPartWebPart.js",
+          "manifest": "./src/webparts/secondWebPart/SecondWebPartWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listWebPart/ListWebPartWebPart.js",
+          "manifest": "./src/webparts/listWebPart/ListWebPartWebPart.manifest.json"
+        }
+      ]
+    },
+    "news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/news/NewsWebPart.js",
+          "manifest": "./src/webparts/news/NewsWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-items-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listItems/ListItemsWebPart.js",
+          "manifest": "./src/webparts/listItems/ListItemsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "SecondWebPartWebPartStrings": "lib/webparts/secondWebPart/loc/{locale}.js",
+    "ListWebPartWebPartStrings": "lib/webparts/listWebPart/loc/{locale}.js",
+    "NewsWebPartStrings": "lib/webparts/news/loc/{locale}.js",
+    "ListItemsWebPartStrings": "lib/webparts/listItems/loc/{locale}.js"
+  }
+}
